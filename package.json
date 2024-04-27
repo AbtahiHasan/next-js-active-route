@@ -1,6 +1,6 @@
 {
   "name": "next-js-active-route",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Active link component for Next.JS App Router, can be used in any component",
   "type": "module",
   "types": "dist/index.d.ts",
