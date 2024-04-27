@@ -10,32 +10,32 @@
 
 ## Documentation
 
-[Documentation](https://www.abtahihasan.com/blogs/next-js-active-link)
+[Documentation](https://www.abtahihasan.com/blogs/next-js-active-route)
 
 ## Installation
 
 install with npm
 
 ```bash
-  npm i next-js-active-link
+npm i next-js-active-route
 ```
 
 install with yarn
 
 ```bash
-  yarn add next-js-active-link
+yarn add next-js-active-route
 ```
 
 install with pnpm
 
 ```bash
-    pnpm install next-js-active-link
+pnpm install next-js-active-route
 ```
 
 ## Usage/Examples
 
 ```javascript
-import { NavLink } from "next-js-active-link";
+import { NavLink } from "next-js-active-route";
 
 const Demo = () => {
   return (
@@ -68,11 +68,11 @@ export default Demo;
 
 ## Props
 
-| Props             | Type        | Description                                                               |
-| :---------------- | :---------- | :------------------------------------------------------------------------ |
-| `href`            | `string`    | **Required**. it's url page url                                           |
-| `activeClassName` | `string`    | **Required**. this all classes applied when your route is active          |
-| `children`        | `ReactNode` | **Required**. for example <p><img src="icon.svg" /> <span>Blog</span></p> |
-| `className`       | `string`    | **Optional**. you can use any classNames                                  |
-| `exact`           | `boolean`   | **Optional** if you want to exact match for example your path is ('/')    |
-| `***`             | `any`       | **Optional** that accept <Link> component                                 |
+| Props             | Type        | Description                                                              |
+| :---------------- | :---------- | :----------------------------------------------------------------------- |
+| `href`            | `string`    | **Required** it's url page url                                           |
+| `activeClassName` | `string`    | **Required** this all classes applied when your route is active          |
+| `children`        | `ReactNode` | **Required** for example <p><img src="icon.svg" /> <span>Blog</span></p> |
+| `className`       | `string`    | **Optional** you can use any classNames                                  |
+| `exact`           | `boolean`   | **Optional** if you want to exact match for example your path is ('/')   |
+| `***`             | `any`       | **Optional** that accept <Link> component                                |
