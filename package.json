@@ -1,6 +1,6 @@
 {
   "name": "next-js-active-route",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Active link component for Next.JS App Router, can be used in any component",
   "type": "module",
   "types": "dist/index.d.ts",
@@ -29,10 +29,12 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.2.79",
+    "clsx": "^2.1.1",
     "next": "^14.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^4.16.4",
+    "tailwind-merge": "^2.5.2",
     "tslib": "^2.6.2"
   }
 }

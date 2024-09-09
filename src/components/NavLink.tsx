@@ -2,6 +2,7 @@ import * as React from "react";
 import Link, { LinkProps } from "next/link";
 import { usePathname } from "next/navigation";
 import { ReactNode } from "react";
+import { cn } from "../lib/utils";
 
 interface NavLinkProps extends LinkProps {
   /**
@@ -42,7 +43,7 @@ const NavLink: React.FC<NavLinkProps> = ({
   return (
     <Link
       href={href}
-      className={`${isActive ? activeClassName : " "} ${className}`}
+      className={cn(className ?? "", isActive && activeClassName)}
       {...props}
     >
       {children}
