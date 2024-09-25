@@ -28,14 +28,14 @@ interface NavLinkProps extends LinkProps {
   children?: ReactNode;
 }
 
-const NavLink: React.FC<NavLinkProps> = ({
+const NavLink = ({
   href,
   activeClassName,
   exact = false,
   className = "",
   children,
   ...props
-}) => {
+}: NavLinkProps) => {
   const pathname: string | null = usePathname();
   const isActive: boolean | undefined = exact
     ? href === pathname
