@@ -1,6 +1,6 @@
 {
   "name": "next-js-active-route",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Active link component for Next.JS App Router, can be used in any component",
   "type": "module",
   "types": "dist/index.d.ts",
@@ -8,10 +8,8 @@
   "scripts": {
     "build": "npx rollup -c"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AbtahiHasan/next-js-active-route.git"
-  },
+  "bugs": "https://github.com/AbtahiHasan/next-js-active-route/issues",
+  "repository": "AbtahiHasan/next-js-active-route",
   "keywords": [
     "Nextjs Active Link",
     "active Link",
@@ -21,15 +19,12 @@
   ],
   "author": "Abtahi Hasan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AbtahiHasan/next-js-active-route/issues"
-  },
-  "homepage": "https://www.abtahihasan.com/blogs/next-js-active-route",
+  "homepage": "https://abtahihasan.com/blogs/next-js-active-route",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.2.79",
-    "next": "^14.2.3",
+    "next": "^14.2.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^4.16.4",
